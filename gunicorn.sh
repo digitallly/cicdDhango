@@ -9,7 +9,7 @@ python3 manage.py migrate
 
 echo "Migrations Done"
 
-cd cd /var/lib/jenkins/workspace/cicdDjango
+cd /var/lib/jenkins/workspace/cicdDjango
 
 sudo cp -rf gunicorn.socket /etc/systemd/system/
 sudo cp -rf gunicorn.service /etc/systemd/system/
